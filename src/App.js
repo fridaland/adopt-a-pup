@@ -52,7 +52,7 @@ function App() {
     <Wrapper>
     <TopSection>
       <Title>
-       🐾 Adopt Elton 🐾
+      <span role="img" aria-label="title-w-img">🐾 Adopt Elton 🐾 </span>
       </Title>
       <Slide>
         {slideImages.map((slideImage, index)=> (
@@ -63,7 +63,7 @@ function App() {
         ))} 
         </Slide>
         <IntroContainer>
-          <Content>Hello! My name is Elton Dog 🕺🏽  </Content>
+          <Content>Hello! My name is Elton Dog :) </Content>
           <Content>
             I'm a Chow & german shepherd mix in need of a new loving home.
             I'm a 1-2 years old, male (intact), incredibly sweet, and snuggly.
@@ -80,10 +80,10 @@ function App() {
           </Content>
           </Content>
           <div>
-            <a style={{color: '#BF4F74'}} href="tel:210-393-0542">📲 CALL OR TEXT NOW: 210-393-0542</a>
+            <a style={{color: '#BF4F74'}} href="tel:210-393-0542">CALL OR TEXT NOW: 210-393-0542</a>
           </div>
           <div>
-            <a style={{color: '#BF4F74'}} href="mailto:fridacasas.fc@gmail.com">💌 CLICK HERE TO EMAIL</a>
+            <a style={{color: '#BF4F74'}} href="mailto:fridacasas.fc@gmail.com">CLICK HERE TO EMAIL</a>
           </div>
         </IntroContainer>
     </TopSection>
@@ -115,7 +115,7 @@ function App() {
     <MiddleSection>
       <MiddleSectionLeftChild>
         <CTAContent>
-          <a style={{color: 'white'}} href="tel:210-393-0542">📲 CALL NOW: 210-393-0542</a>
+          <a style={{color: 'white'}} href="tel:210-393-0542">CALL NOW: 210-393-0542</a>
         </CTAContent>
       </MiddleSectionLeftChild>
     </MiddleSection>
